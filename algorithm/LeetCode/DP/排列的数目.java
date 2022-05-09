@@ -1,6 +1,4 @@
-package LeetCode.分治法.全排列;
-
-import java.util.Arrays;
+package LeetCode.DP;
 
 public class 排列的数目 {
     //2022.5.9 不会 抄的
