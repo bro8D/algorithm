@@ -5,7 +5,6 @@ import java.util.List;
 
 public class 字母大小写全排列 {
     //字符串顺序不能被打乱
-    //
     public static List<String> letterCasePermutation(String s) {
         List<StringBuilder> ans = new ArrayList<>();
         ans.add(new StringBuilder());
