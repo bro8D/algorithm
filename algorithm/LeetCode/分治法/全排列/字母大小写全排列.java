@@ -46,6 +46,7 @@ public class 字母大小写全排列 {
                 }
             } else {
                 //如果下一个字符 c 是数字，将 c 直接添加到每个字符串的末尾。
+                //因为不是字母，所以不用开辟新的分支。
                 for(int i=0;i<n;i++) {
                     ans.get(i).append(c);
                 }
